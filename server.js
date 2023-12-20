@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send("<h1>Welcome to My Ecommerce App</h1>")
+  res.send("<h1>Welcome to My NON_DEPLOYABLE App</h1>")
 })
 
 //mongodb Connection Database
